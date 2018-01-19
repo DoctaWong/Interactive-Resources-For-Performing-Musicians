@@ -1,0 +1,213 @@
+
+body {
+  background-color: black;
+  background-size: contain;
+  color: white;
+}
+
+.navBar {
+  display: inline-block;
+  height: 100vh;
+  width: 10%;
+  min-width: 100px;
+  border: outset 10px silver;
+  float: left;
+  padding: 1%;
+  overflow: auto;
+  background-image: url("../imgs/edited_metal.jpg");
+}
+
+.mainContent {
+  width: 70%;
+  display:inline-block;
+  margin: 0 auto;
+  margin-left: 5%;
+}
+
+.titlePics {
+  display: block;
+  color: white;
+  margin: 0 auto;
+}
+
+.subTitlePics {
+  display: block;
+  color: white;
+  margin: 0 auto;
+}
+
+
+.text{
+  display: inline-block;
+  margin: 5%;
+  color: #ffc14d;
+  line-height: 150%;
+  font-family: "europa", sans-serif;
+}
+
+.title {
+	height: 25vh;
+	margin-top: 5vh;
+}
+
+.subHeading {
+  height: 10vh;
+  margin: 5vh;
+}
+
+.subTitle {
+  color: #ff9a4d;
+}
+
+p, ol {
+  margin: 0;
+}
+
+h1 {
+  left: 0%;
+  right: 0%;
+  text-align: center;
+  color: #ff9a4d;
+  font-size: 40px;
+  line-height: 150%;
+  font-family: "europa", sans-serif;
+
+}
+
+h2 {
+  left: 0%;
+  right: 0%;
+  text-align: center;
+  color: #ff9a4d;
+  font-size: 40px;
+  font-family: "europa", sans-serif;
+  margin: 50px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "europa", sans-serif;
+  color: #ff9a4d;
+  margin: 0 auto;
+  margin: 5%;
+}
+
+p.text {
+    text-indent: 50px;
+}
+
+p.form {
+  text-indent: 0px;
+}
+
+p.ref {
+  color: #ff9a4d;
+  text-indent: 0px;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.answerBox {
+  height: 50px;
+  color: green;
+}
+
+.answerIncorrect {
+  height: 50px;
+  color: red;
+}
+
+.answerCorrect {
+  height: 50px;
+  color: green;
+}
+
+
+nav > a {
+  display: block;
+  padding: 1%;
+  margin: 1%;
+  margin-top: 10%;
+  border: solid 2px black;
+  background-color: dimgray;
+  color: black;
+  text-decoration: none;
+  font-family: "europa", sans-serif;
+  text-align:center;
+  font-weight: bold;
+}
+
+nav > a:hover {
+  color: white;
+  background-color: gray;
+}
+
+nav > a:focus {
+  color: white;
+}
+
+nav > a:active {
+  border: solid 5px black;
+  background-color: gray;
+  color: silver;
+}
+
+nav> a.active {
+  background-color: white;
+  color: black;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+table, tr, th, td, caption {
+  border: 2px solid white;
+  }
+
+caption {
+  color: black;
+  background-color: darkgray;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+th {
+  color: black;
+  background-color: gray;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+td {
+  color: black;
+  background-color: white;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+span {
+  background-color: white;
+  color: black;
+  visibility: hidden;
+}
+
+td:hover >span {
+  visibility: visible;
+}
+
+td:active >span {
+  visibility: visible;
+}
